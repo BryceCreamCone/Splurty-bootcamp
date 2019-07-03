@@ -37,13 +37,13 @@
 
 .links {
   padding-top: 26px;
-  text-align: right;
+  text-align: center;
 }
 
 .links a {
   color: black;
   font-size: 25px;
-  border-bottom: 1px solid #dfdfdf;
+  border-bottom: 1px solid #f84342;
   font-family: 'Kalam', cursive;
   font-weight: bold;
 }
@@ -57,11 +57,20 @@ header {
 }
 
 h1 {
-  font-family: 'Kalam', cursive;
+  font-family: "Palatino Linotype", Palatino, Palladia, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
   font-weight: bold;
 }
 
 h2 {
+  font-family: "Palatino Linotype", Palatino, Palladia, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+}
+
+h4 {
+  font-family: 'Kalam', cursive;
+}
+
+h4 span {
+  color: #dddddd;
   font-family: 'Kalam', cursive;
 }
 
@@ -74,4 +83,18 @@ h2 {
 
 .logo:hover {
   text-decoration: none;
+}
+
+.modal {
+  font-family: "Palatino Linotype", Palatino, Palladia, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;  
+}
+
+::selection {
+  background-color: #f84342;
+}
+
+@media (max-width: 750px) {
+  .footer-blurb {
+    text-align: left;
+  }
 }
